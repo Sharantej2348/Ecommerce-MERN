@@ -26,7 +26,7 @@ const productSchema = new mongoose.Schema({
         required: true,
     },
     sizes: {
-        tyep: Array,
+        type: Array,
         required: true,
     },
     bestSeller: {
